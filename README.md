@@ -1,10 +1,10 @@
 # Light-field-fiber-bundle-imaging
 
 # General information
- The algorithm was developed in MATLAB environment
- The algorithm was developed based on reference: Optical fiber bundles: Ultra-slim light field imaging probes by A. Orth, etc. Please also cite this paper if you use this code for your project
- example sample dataset is provided in folders: single_layer, the files' name indicate the distance from sample to fiber bundle surface
- The function files are put in folder: files
+ 1. The algorithm was developed in MATLAB environment.
+ 2. The algorithm was developed based on reference: Optical fiber bundles: Ultra-slim light field imaging probes by A. Orth, etc. Please also cite this paper if you use this code for your project.
+ 3. example sample dataset is provided in folders: single_layer, the files' name indicate the distance from sample to fiber bundle surface.
+ 4. The function files are put in folder: files.
 
 # How to use
 There are 5 major files for this algorithm, and each file stands for a different intermediate step. Please run these files in sequence
