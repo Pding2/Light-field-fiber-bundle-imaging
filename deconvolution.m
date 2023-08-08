@@ -1,5 +1,7 @@
-% deconvoluion
-% % Last modification:5/20/2022
+% Step 4: deconvolution
+% Reference: A. Orth, etc.,Optical fiber bundles: Ultra-slim light field imaging probes
+% last modified 2022-08-20
+% by Peisheng Ding (peisheng.ding@mpi-halle.mpg.de, peisheng.ding@mail.utoronto.ca)
 
 
 clear

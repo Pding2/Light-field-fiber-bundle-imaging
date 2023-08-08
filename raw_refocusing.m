@@ -1,4 +1,8 @@
-%to get the raw image refocusing 
+% Step 2: Raw image refocusing 
+% Cite: Optical fiber bundles: Ultra-slim light field imaging probes
+% last modified 2022-05-20
+% by Peisheng Ding (peisheng.ding@mpi-halle.mpg.de, peisheng.ding@mail.utoronto.ca)
+
 addpath('files')
 close all;
 %% getting Mx and My

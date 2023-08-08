@@ -1,4 +1,8 @@
-
+% Step 1: Ditial aperture filtering 
+% Reference: A. Orth, etc.,Optical fiber bundles: Ultra-slim light field imaging probes
+% Two images for full and small aperture will be saved
+% last modified 2022-05-20
+% by Peisheng Ding (peisheng.ding@mpi-halle.mpg.de, peisheng.ding@mail.utoronto.ca)
 
 clc; 
 clear ;
@@ -8,7 +12,7 @@ addpath('files')
 %read the files and get the core location 
 [filename,filepath]=uigetfile({'*'});% select the images 
 Image = imread(strcat(filepath, filename));% the raw image
-ReferenceImage = imread('files/GT0212/R.tif');
+ReferenceImage = imread('files/single_layer/Reference.tif');
 % 
 Image = imresize(Image,2,'bicubic');% double the size of the image to aviod the edging effect
 ReferenceImage = imresize(ReferenceImage, 2, 'bicubic');

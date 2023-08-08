@@ -1,5 +1,10 @@
-
-%Last modification: 02/16/2023
+% Step 3: simulating PSFs for deconvolution
+% Reference: A. Orth, etc.,Optical fiber bundles: Ultra-slim light field imaging probes
+% last modified 2022-05-20
+% by Peisheng Ding (peisheng.ding@mpi-halle.mpg.de, peisheng.ding@mail.utoronto.ca)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% preparing simulated PSFs for deconvolution.
+% 4D matrix R_E_psf is saved
 
 close all
 % simulate the  I1 and I0 by using the Gaussian
