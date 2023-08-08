@@ -1,12 +1,12 @@
 # Light-field-fiber-bundle-imaging
 
-General information
-# The algorithm was developed in MATLAB environment
-# The algorithm was developed based on reference: Optical fiber bundles: Ultra-slim light field imaging probes by A. Orth, etc. Please also cite this paper if you use this code for your project
-# an example sample datasets is provided in folders: single_layer, the files' name indicate the distance from sample to fiber bundle surface
-# The function files are put in folder: files
+# General information
+ The algorithm was developed in MATLAB environment
+ The algorithm was developed based on reference: Optical fiber bundles: Ultra-slim light field imaging probes by A. Orth, etc. Please also cite this paper if you use this code for your project
+ example sample dataset is provided in folders: single_layer, the files' name indicate the distance from sample to fiber bundle surface
+ The function files are put in folder: files
 
-How to use
+# How to use
 There are 5 major files for this algorithm, and each file stands for a different intermediate step. Please run these files in sequence
 
 1. Digital_filter_aperture.m: Digital aperture filtering. For different datasets, make sure to choose the correct path for their reference images. The detected cores could have centriod-off from the measured image. Manually adjust parameters: adjust_x, adjust_y, until the cores of two images matched. A dataset file: full&small including two apertured images will be saved for later uses.
